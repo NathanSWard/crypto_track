@@ -1,0 +1,11 @@
+[package]
+name = "generate_asset_pairs"
+version = "0.1.0"
+authors = ["nward"]
+edition = "2018"
+
+[dependencies]
+serde_json = "1.0.59"
+kraken = { path = "../kraken" }
+failure = "0.1.8"
+reqwest = { version = "0.10.8", features = ["blocking"] }

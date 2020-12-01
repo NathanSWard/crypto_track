@@ -1,0 +1,2 @@
+[workspace]
+members = ["client", "kraken", "generate_asset_pairs"]
